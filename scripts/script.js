@@ -225,5 +225,52 @@ const displayModal = () => {
 }
 
 const make_payment = () => {
-  
+  const genID =  generate_api_key()
+  // alert(genID)
+  // generate api key
+  // generate token
+  // issue to pay request
+  // upon success make a post request
+}
+
+const generate_api_key = async = (gene_id = generateUserID,sub_key=subscription_key) => {
+  return "34234234234"
+  // fetch(`https://sandbox.momodeveloper.mtn.com/v1_0/apiuser/${gene_id}`, {
+  //   method: 'POST',
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //     'Ocp-Apim-Subscription-Key': `${sub_key}`,
+  //     'X-Target-Environment': 'sandbox',
+  //   }
+  // })
+  // .then(response => {
+  //   if (response.ok) {
+  //     alert(response.json())
+  //     return response.json();
+  //   } else {
+  //     throw new Error('Payment submission failed');
+  //   }
+  // })
+  // return null
+}
+
+const generate_key = (api) => {
+  return "apikuserkey = 123432334324234"
+}
+
+const generate_toke = (generateuserapikey,subscriptionkey) => {
+  return "token generated = werwerwerwer"
+}
+
+
+const issue_payment = async (generated_toke, user_mobile_number) => {
+  return "response of 200, json "
+}
+
+
+const post_payment_infor = async (payment_json_data) => {
+  // post to endpoint
+  // show an alert on post successful
+  // payment has been made succefully
+  // close modal
 }
